@@ -1,0 +1,275 @@
+.sidebar {
+  background-color: #000;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.hidden {
+  transform: translateX(-200px);
+}
+
+.sidebar-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7); /* Updated */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.5s ease; /* Updated */
+  height: 50px;
+  width: 95%;
+}
+
+.dashboard-btn:hover,
+.battery-btn:hover,
+.solar-btn:hover {
+  background-color: #525252;
+  width: 95%;
+  color: #fff;
+  outline: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, width 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.dashboard-btn.selected,
+.battery-btn.selected,
+.solar-btn.selected {
+  background-color: #034694;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  opacity: 0.9;
+  outline: none;
+  transform: scale(1.05); /* New */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, font-weight 0.3s ease-in-out, opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.dashboard-btn.selected:hover,
+.battery-btn.selected:hover,
+.solar-btn.selected:hover {
+  animation: none;
+}
+
+.dashboard-btn .MuiSvgIcon-root,
+.battery-btn .MuiSvgIcon-root,
+.solar-btn .MuiSvgIcon-root {
+  font-size: 20px; /* Updated */
+  margin-right: 5px; /* Updated */
+  color: rgba(255, 255, 255, 0.7); /* New */
+  transition: color 0.3s ease; /* New */
+}
+
+.dashboard-btn:hover .MuiSvgIcon-root,
+.battery-btn:hover .MuiSvgIcon-root,
+.solar-btn:hover .MuiSvgIcon-root,
+.dashboard-btn.selected .MuiSvgIcon-root,
+.battery-btn.selected .MuiSvgIcon-root,
+.solar-btn.selected .MuiSvgIcon-root {
+  color: #fff;
+}
+
+.dashboard-btn.selected .MuiSvgIcon-root,
+.battery-btn.selected .MuiSvgIcon-root,
+.solar-btn.selected .MuiSvgIcon-root {
+  color: #fff;
+}
+
+.dashboard-btn.selected:hover .MuiSvgIcon-root,
+.battery-btn.selected:hover .MuiSvgIcon-root,
+.solar-btn.selected:hover .MuiSvgIcon-root {
+  animation: none;
+}
+
+
+.sidebar-toggle-btn {
+  position: fixed;
+  top: 40px;
+  left: 60px;
+  z-index: 2;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-toggle-btn svg {
+  margin-right: 10px;
+}
+
+.map_sjsu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+
+.map_icon_1 {
+  position: absolute;
+  top: 160px;
+  left: -80px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_1:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_1:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_2 {
+  position: absolute;
+  top: 130px;
+  left: -10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_2:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_2:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_3 {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_3:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_3:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_4 {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_4:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_4:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_5 {
+  position: absolute;
+  top: 140px;
+  left: 292.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_5:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_5:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_6 {
+  position: absolute;
+  top: 160px;
+  left: 375px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_6:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_6:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_7 {
+  position: absolute;
+  top: 210px;
+  left: 475px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_7:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_7:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_8 {
+  position: absolute;
+  top: 280px;
+  left: -72.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_8:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_8:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_9 {
+  position: absolute;
+  top: 263px;
+  left: 53.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_9:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_9:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+@keyframes expandShake {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2) rotate(-10deg);
+  }
+  50% {
+    transform: scale(1.3) rotate(10deg);
+  }
+  75% {
+    transform: scale(1.2) rotate(-10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
