@@ -356,6 +356,12 @@ const columns_solar = [
           <LocationOnIcon className="map_icon_7"/>
           <LocationOnIcon className="map_icon_8"/>
           <LocationOnIcon className="map_icon_9"/>
+          <LocationOnIcon className="map_icon_10"/>
+          <LocationOnIcon className="map_icon_11"/>
+          <LocationOnIcon className="map_icon_12"/>
+          <LocationOnIcon className="map_icon_13"/>
+          <LocationOnIcon className="map_icon_14"/>
+          <LocationOnIcon className="map_icon_15"/>
           <div style={{ 
             position: "absolute",
             right:"-550px"

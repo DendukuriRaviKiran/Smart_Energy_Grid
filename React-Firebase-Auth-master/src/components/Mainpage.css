@@ -255,6 +255,96 @@
   animation: expandShake 0.5s ease-in-out;
 }
 
+.map_icon_10 {
+  position: absolute;
+  top: 270px;
+  left: 150px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_10:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_10:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_11 {
+  position: absolute;
+  top: 420px;
+  left: 53.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_11:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_11:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_12 {
+  position: absolute;
+  top: 430px;
+  left: 53.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_12:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_12:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_13 {
+  position: absolute;
+  top: 420px;
+  left: 53.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_13:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_13:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_14 {
+  position: absolute;
+  top: 600px;
+  left: 53.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_14:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_14:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
+.map_icon_15 {
+  position: absolute;
+  top: 610px;
+  left: 53.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.map_icon_15:hover {
+  transform: scale(1.2);
+}
+
+.map_icon_15:active {
+  animation: expandShake 0.5s ease-in-out;
+}
+
 @keyframes expandShake {
   0% {
     transform: scale(1);
